@@ -20,7 +20,7 @@ st.markdown("조회할 제품의 품번을 입력해 주세요.")
 IMAGE_FOLDER = "images" 
 
 with st.form(key="search_form"):
-    product_id = st.text_input("🔍 품번 입력", placeholder="예: a123 또는 A123")
+    product_id = st.text_input("🔍 품번 입력", placeholder="예: h008832 또는 H008832")
     submit_button = st.form_submit_button("이미지 검색", use_container_width=True)
 
 if submit_button:
